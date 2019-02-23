@@ -1,0 +1,25 @@
+//variables
+/*---------------boton---------------------------------------------*/
+
+@mixin boton($color) {
+    background-color: $celeste;
+    display: inline-block;
+    color: white;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    text-decoration: none;
+}
+
+/*-------------------Media-Queries-------------------------------*/
+
+@mixin tablet {
+    @media only screen and (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: #{$desktop}) {
+        @content;
+    }
+}
