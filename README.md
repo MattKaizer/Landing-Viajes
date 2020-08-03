@@ -31,6 +31,8 @@ the design was also chosen for its simplicity
 #### Instructions
 ~~~
 npm i -g gulp
+git clone https://github.com/MattKaizer/Landing-Viajes.git
+cd Landing-Viajes/
 npm i
 gulp
 ~~~
