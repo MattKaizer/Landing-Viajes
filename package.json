@@ -10,13 +10,18 @@
   "license": "ISC",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-rename": "^1.4.0",
+    "gulp-cache": "^0.2.10",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "2.5.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
     "gulp-sass": "^4.0.1"
   },
-  "browserlist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "dependencies": {
+    "imagemin-pngquant": "^9.0.0",
+    "imagemin-zopfli": "^7.0.0"
+  }
 }
