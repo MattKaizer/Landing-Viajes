@@ -16,10 +16,6 @@ It is a practice in which I made my first contact with sass for style management
 * Knowing basic use of sass
 * Trying paralax effect
 
-#### Summary of Tech used explained
-
-
-
 #### Functionality
 
 This example has no functionality but just learn something by doing.
